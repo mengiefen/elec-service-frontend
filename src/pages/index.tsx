@@ -2,7 +2,7 @@ import type { NextPage } from 'next';
 import Head from 'next/head';
 import Image from 'next/image';
 import styles from '../styles/Home.module.css';
-import Input from '../components/elements/Input';
+import Layout from '../components/Layout';
 
 const Home: NextPage = () => {
   return (
@@ -13,20 +13,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <Input
-          htmlFor="test"
-          labelText="Test"
-          type="text"
-          placeholder="Test"
-          value="Test"
-          onChange={(e) => {
-            console.log(e.target.value);
-          }}
-        />
-      </main>
-
-      <footer className={styles.footer}></footer>
+      <Layout>
+        <div className="text-4xl text-slate-900 font-semibold text-center min-w-screen min-h-screen flex justify-center items-center">
+          Front Page
+        </div>
+      </Layout>
     </div>
   );
 };

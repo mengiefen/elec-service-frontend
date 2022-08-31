@@ -19,7 +19,7 @@ const Input = (props: InputProps): JSX.Element => {
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className="form-control"
+        className="form-control p-20"
       />
     </div>
   );
