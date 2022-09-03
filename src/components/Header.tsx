@@ -4,7 +4,7 @@ import TopNav from './elements/TopNav';
 
 const Header = () => {
   return (
-    <header>
+    <header className="">
       <TopNav />
       <BottomNav />
     </header>

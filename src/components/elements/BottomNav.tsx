@@ -3,7 +3,7 @@ import React from 'react';
 const BottomNav = () => {
   return (
     <nav
-      className="fixed left-[10%] top-10  w-4/5 h-20 mx-auto
+      className="absolute left-[10%] top-10  w-4/5 h-20 mx-auto
     shadow-lg py-2 px-10 rounded  bg-yellow-100 flex justify-between items-center"
     >
       <h1 className="text-4xl font-bold text-purple-900">M & Z</h1>
