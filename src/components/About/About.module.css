@@ -1,0 +1,6 @@
+.sampleBg {
+  background-image: url(../../../public/images/sample.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
