@@ -1,6 +1,6 @@
 import React from 'react';
-import BottomNav from './elements/BottomNav';
-import TopNav from './elements/TopNav';
+import BottomNav from './BottomNav';
+import TopNav from './TopNav';
 
 const Header = () => {
   return (

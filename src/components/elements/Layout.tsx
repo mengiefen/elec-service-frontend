@@ -10,7 +10,7 @@ const Layout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
-      <main className="mx-10 mt-10 min-w-[100vh]">{children}</main>
+      <main>{children}</main>
       {/* <Footer /> */}
     </>
   );

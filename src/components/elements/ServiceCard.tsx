@@ -14,7 +14,7 @@ type ServiceCardProps = {
 const ServiceCard = (props: ServiceCardProps) => {
   return (
     <div
-      className={`${styles.diamondCard} flex flex-col items-center p-2 bg-yellow-400 gap-2 border-8 border-slate-500 rounded-lg`}
+      className={`${styles.diamondCard} flex flex-col items-center p-2 bg-gray-200 gap-2 border-8 border-slate-500 rounded-lg`}
     >
       <Image
         src={props.imageUrl || '/images/design.png'}

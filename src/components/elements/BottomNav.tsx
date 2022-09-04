@@ -4,7 +4,7 @@ const BottomNav = () => {
   return (
     <nav
       className="absolute left-[10%] top-10  w-4/5 h-20 mx-auto
-    shadow-lg py-2 px-10 rounded  bg-yellow-100 flex justify-between items-center"
+    shadow-lg py-2 px-10 rounded  bg-yellow-600 flex justify-between items-center"
     >
       <h1 className="text-4xl font-bold text-purple-900">M & Z</h1>
       <ul
@@ -14,17 +14,17 @@ const BottomNav = () => {
       >
         <li className="nav-item">
           <a className="nav-link active" href="#">
-            Active
+            Home
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#">
-            Link
+            Services
           </a>
         </li>
         <li className="nav-item">
           <a className="nav-link disabled" href="#">
-            Disabled
+            About
           </a>
         </li>
       </ul>

@@ -1,0 +1,7 @@
+.sampleBg {
+  background-color: transparent;
+  background-image: url(../../public/images/sample3.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left;
+}
