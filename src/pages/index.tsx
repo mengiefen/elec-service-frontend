@@ -7,7 +7,7 @@ import FrontPage from '../components/FrontPage/FrontPage';
 import Services from '../components/Services/Services';
 import Sample2 from '../components/Sample2';
 import About from '../components/About/About';
-import Shape2 from '../components/elements/Shape2';
+import Shape from '../components/Shape/Shape';
 
 const Home: NextPage = () => {
   return (
@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <FrontPage />
         <Services />
         <About />
-        <Shape2 />
+        <Shape />
       </Layout>
     </div>
   );
