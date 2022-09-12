@@ -5,14 +5,14 @@ import Container from '../elements/Container';
 
 const FrontPage = () => {
   return (
-    <Container bg="bg-slate-900">
+    <Container bg="bg-gray-50">
       <div className="flex flex-col mt-32 max-w-full h-[80%] max-h-screen bg-white-200">
         <div className="h-[100%] flex justify-between items-center ">
           <div className="w-1/2">
-            <h1 className="text-6xl text-yellow-500 font-bold pb-10 ">
+            <h1 className="text-6xl text-slate-90000 font-bold pb-10 ">
               M & Z Electrical Service
             </h1>
-            <p className="text-yellow-600 text-lg">
+            <p className="text-slate-700 text-lg">
               We are a family run electrical service company based in the
               surrounding area. We offer a wide range of services including
               electrical, plumbing, and electrical and plumbing repairs.
