@@ -22,8 +22,8 @@ const EnquiryForm = () => {
   };
 
   return (
-    <div className="relative flex items-center justify-between bg-slate-900 w-[80%] p-5 rounded shadow-red-300 shadow-md">
-      <h2 className="absolute -top-1/4 -translate-y-1/2 p-2 left-0 w-2/6 bg-yellow-600 text-slate-900 text-2xl rounded">
+    <div className="relative flex items-center justify-between bg-gray-200 w-[80%] p-5 rounded shadow-red-300 shadow-md">
+      <h2 className="absolute -top-1/4 -translate-y-1/2 p-2 left-0 w-2/6 bg-slate-600 text-white text-2xl rounded">
         Make an Enquiry
       </h2>
       <form
@@ -36,18 +36,18 @@ const EnquiryForm = () => {
           type="text"
           id="name"
           onChange={(e) => handleChange(e)}
-          className="p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-yellow-400 bg-slate-600 text-yellow-300 "
+          className="p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-slate-400 bg-slate-100 text-slate-800 "
           placeholder="Name"
         />
         <input
           type="tel"
           id="phone"
           onChange={(e) => handleChange(e)}
-          className="p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-yellow-400 bg-slate-600 text-yellow-300"
+          className="p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-slate-400 bg-slate-100 text-slate-800 "
           placeholder="Your Phone"
         />
 
-        <select className="p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-yellow-400 bg-slate-600 text-yellow-300">
+        <select className="p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-slate-400 bg-slate-100 text-slate-800 ">
           <option value="">Select Service</option>
           <option value="Electrical">Electrical</option>
           <option value="Plumbing">Plumbing</option>
@@ -56,7 +56,10 @@ const EnquiryForm = () => {
           </option>
         </select>
 
-        <button type="submit" className="bg-yellow-400 p-3 rounded-md px-10">
+        <button
+          type="submit"
+          className="bg-slate-800 text-white p-3 rounded-md px-10"
+        >
           Submit
         </button>
       </form>
