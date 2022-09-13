@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
 
 const BottomNav = () => {
   return (
-    <nav
-      className="absolute left-[10%] top-10  w-4/5 h-20 mx-auto
-    shadow-lg py-2 px-10 rounded  bg-yellow-50 flex justify-between items-center"
-    >
+    <nav className="nav-container">
       <h1 className="text-4xl font-bold text-purple-900">M & Z</h1>
       <ul
         className="nav justify-content-center mt-2 
@@ -13,18 +10,28 @@ const BottomNav = () => {
       justify-end "
       >
         <li className="nav-item">
-          <a className="nav-link active" href="#">
+          <a className="nav-link-custom" href="#">
             Home
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">
+          <a className="nav-link-custom " href="#">
+            Register
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link-custom " href="#">
             Services
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link disabled" href="#">
+          <a className="nav-link-custom " href="#">
             About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link-custom " href="#">
+            SignIn
           </a>
         </li>
       </ul>
