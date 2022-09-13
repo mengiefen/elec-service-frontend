@@ -7,6 +7,7 @@ import {
   FaLinkedin,
   FaPhone,
 } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
   return (

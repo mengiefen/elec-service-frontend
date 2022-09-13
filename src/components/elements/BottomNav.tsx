@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const BottomNav = () => {
@@ -15,9 +16,9 @@ const BottomNav = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link-custom " href="#">
-            Register
-          </a>
+          <Link href="/register">
+            <a className="nav-link-custom">Register</a>
+          </Link>
         </li>
         <li className="nav-item">
           <a className="nav-link-custom " href="#">
