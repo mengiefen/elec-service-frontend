@@ -1,13 +1,13 @@
-import type { NextPage } from 'next';
-import Head from 'next/head';
-import Image from 'next/image';
+import type { NextPage } from "next";
+import Head from "next/head";
+import Image from "next/image";
 
-import Layout from '../components/elements/Layout';
-import FrontPage from '../components/FrontPage/FrontPage';
-import Services from '../components/Services/Services';
-import Sample2 from '../components/Sample2';
-import About from '../components/About/About';
-import Shape from '../components/Shape/Shape';
+import Layout from "../components/elements/Layout";
+import FrontPage from "../components/FrontPage/FrontPage";
+import Services from "../components/Services/Services";
+import Sample2 from "../components/Sample2";
+import About from "../components/About/About";
+import Shape from "../components/Shape/Shape";
 
 const Home: NextPage = () => {
   return (
