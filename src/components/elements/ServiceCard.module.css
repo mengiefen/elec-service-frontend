@@ -21,6 +21,16 @@
     0% 70%,
     0% 30%
   );
-  margin: 2rem auto 7rem auto;
+
+  height: 500px;
+  margin: 1rem auto 1rem auto;
   padding: 0 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .diamondCard {
+    width: 100vw;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    shape-outside: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  }
 }

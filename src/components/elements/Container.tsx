@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 type ContainerProps = {
   children: React.ReactNode;
@@ -7,7 +7,7 @@ type ContainerProps = {
 
 const Container = (props: ContainerProps) => {
   return (
-    <section className={`px-10 pt-10 w-[100vw] ${props.bg}`}>
+    <section className={`px-10 pt-10 w-100 ${props.bg}`}>
       {props.children}
     </section>
   );

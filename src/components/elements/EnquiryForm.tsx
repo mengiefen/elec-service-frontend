@@ -58,7 +58,7 @@ const EnquiryForm = () => {
 
         <button
           type="submit"
-          className="bg-slate-800 text-white p-3 rounded-md px-10"
+          className="bg-yellow-800 text-white p-3 rounded-md px-10 hover:bg-yellow-700"
         >
           Submit a Quote
         </button>
