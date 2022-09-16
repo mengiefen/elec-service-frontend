@@ -46,7 +46,7 @@ a {
 }
 
 .hero-image {
-  background-image: url("/images/spiral.svg");
+  background-image: url('/images/spiral.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
