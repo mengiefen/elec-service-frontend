@@ -1,11 +1,11 @@
-import React from "react";
-import { TbClock } from "react-icons/tb";
-import { GoLocation } from "react-icons/go";
-import { AiOutlineShoppingCart, AiOutlinePhone } from "react-icons/ai";
+import React from 'react';
+import { TbClock } from 'react-icons/tb';
+import { GoLocation } from 'react-icons/go';
+import { AiOutlineShoppingCart, AiOutlinePhone } from 'react-icons/ai';
 
 const TopNav = () => {
   return (
-    <div className="w-[100%] absolute top-0 left-0 h-12 bg-slate-700 flex justify-between items-center px-20 z-11">
+    <div className="w-[100%] absolute top-0 left-0 h-12 bg-slate-700 flex justify-between items-center px-20 z-20">
       <div className="flex gap-5 items-center">
         <GoLocation className="text-2xl text-yellow-600" />
         <span className="text-yellow-200">Jimma, Ethiopia </span>
