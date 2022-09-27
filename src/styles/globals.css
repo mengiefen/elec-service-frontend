@@ -42,10 +42,8 @@ a {
 
   .nav-container {
     @apply absolute left-[10%] top-10  w-4/5 h-20 mx-auto
-      shadow-lg py-2 px-10 rounded  bg-yellow-50 flex justify-between items-center;
+      shadow-lg py-2 px-10 rounded  bg-yellow-50 flex justify-between items-center z-10;
   }
-
-
 
   .footer-social-icon {
     @apply text-3xl text-slate-300 hover:text-yellow-700 hover:border-2 border-yellow-600 rounded-full p-1 cursor-pointer;
@@ -54,11 +52,10 @@ a {
   .enquiry-input {
     @apply p-2 border-2 border-yellow-600 rounded-md focus:outline-none focus:border-slate-400 bg-slate-100 text-slate-800;
   }
-
 }
 
 .hero-image {
-  background-image: url("/images/spiral.svg");
+  background-image: url('/images/spiral.svg');
   background-repeat: no-repeat;
   background-position: bottom right;
   background-size: cover;
@@ -66,10 +63,29 @@ a {
 }
 
 @font-face {
-  font-family: "digital";
+  font-family: 'digital';
   src: url('../../public/fonts/digital.ttf');
 }
 
 .time-display {
-  font-family: digital, 'Courier New', Courier, monospace;  
+  font-family: digital, 'Courier New', Courier, monospace;
+}
+
+.testimonial {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url('/images/4.svg');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.testimonial-image {
+  background-image: url('/images/2.svg');
+  background-repeat: no-repeat;
+  background-position: top left 60%;
+  background-size: 150%;
 }
