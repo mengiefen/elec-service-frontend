@@ -1,17 +1,16 @@
-import Link from "next/link";
-import React from "react";
-import DateTime from "../../components/elements/DateTime";
+import Link from 'next/link';
+import React from 'react';
+import DateTime from '../../components/elements/DateTime';
+import Layout from '../../components/elements/Layout';
 
 const register = () => {
   return (
-    <div className="bg-slate-200 min-h-screen ">
-      <h1>register</h1>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-
-      <DateTime />
-    </div>
+    <Layout>
+      <div className="bg-slate-200 min-h-screen flex justify-center items-center flex-col">
+        <h1>Register</h1>
+        <DateTime />
+      </div>
+    </Layout>
   );
 };
 
