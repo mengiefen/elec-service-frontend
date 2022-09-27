@@ -11,9 +11,9 @@ const BottomNav = () => {
       justify-end "
       >
         <li className="nav-item">
-          <a className="nav-link-custom" href="#">
-            Home
-          </a>
+          <Link href="/">
+            <a className="nav-link-custom">Home</a>
+          </Link>
         </li>
         <li className="nav-item">
           <Link href="/register">
@@ -26,9 +26,9 @@ const BottomNav = () => {
           </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link-custom " href="#">
-            About
-          </a>
+          <Link href="/testimonials">
+            <a className="nav-link-custom ">About</a>
+          </Link>
         </li>
         <li className="nav-item">
           <a className="nav-link-custom " href="#">
