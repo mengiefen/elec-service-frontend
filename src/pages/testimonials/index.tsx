@@ -7,7 +7,7 @@ const Testimonial = () => {
   return (
     <Layout>
       <div className="testimonial relative">
-        <h4 className="text-3xl uppercase pl-5">Testimonials</h4>
+        <h4 className="text-3xl uppercase pl-5 pt-5">Testimonials</h4>
         <TestimonialCard />
       </div>
     </Layout>
