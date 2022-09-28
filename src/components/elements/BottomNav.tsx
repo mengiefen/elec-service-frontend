@@ -31,9 +31,9 @@ const BottomNav = () => {
           </Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link-custom " href="#">
-            SignIn
-          </a>
+          <Link href="/login">
+            <a className="nav-link-custom">SignIn</a>
+          </Link>
         </li>
       </ul>
     </nav>
