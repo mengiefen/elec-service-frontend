@@ -7,7 +7,6 @@ const register = () => {
   return (
     <Layout>
       <div className="bg-slate-200 min-h-screen flex justify-center items-center flex-col">
-        <h1>Register</h1>
         <DateTime />
       </div>
     </Layout>

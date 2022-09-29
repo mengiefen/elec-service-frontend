@@ -50,7 +50,7 @@ const DateTime = () => {
               return (
                 <span
                   key={dateName}
-                  className="block text-[10px] uppercase"
+                  className="block text-[8px] uppercase"
                   style={
                     date.dayName === dateName
                       ? { color: 'red' }
@@ -64,9 +64,15 @@ const DateTime = () => {
           </div>
           <div className={styles.dateWrapper}>
             <span className={styles.date}>
-              <span className="pr-1">{date.hour}:</span>
-              <span className="pr-1">{date.minute}:</span>
-              <span className="pr-1">{date.second}</span>
+              <span className="w-[55px] overflow-hidden text-center">
+                {date.hour}:
+              </span>
+              <span className="w-[55px] overflow-hidden text-center">
+                {date.minute}:
+              </span>
+              <span className="w-[55px] overflow-hidden text-center">
+                {date.second}
+              </span>
             </span>
             <span className="block text-[10px]">{date.ampm}</span>
           </div>
